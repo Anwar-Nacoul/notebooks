@@ -1,5 +1,5 @@
 % Please insert the names and email addresses of the group members:
-%
+% Anwar Nacoul, anwar.nacoul.1@uni-potsdam.de
 %
 
 subgrid_size(3).
@@ -9,5 +9,6 @@ subgrid_size(3).
 % - A cell (x,y) can be mapped to the subgrid labeled (((x-1)/s)*s + (y-1)/s)
 
 % Your implementation please...
+
 
 #show sudoku/3.
