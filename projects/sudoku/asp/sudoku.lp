@@ -16,7 +16,7 @@ sudoku(X,Y,N) :- initial(X,Y,N).	%take numbers from user
 
 1 { sudoku(X,Y,N) : number(N) } 1 :- cell(X,Y), not initial(X,Y,_).		%every cell has 1 uniqe number
 
-
+hkhk
 :- sudoku(X,Y1,N), sudoku(X,Y2,N), Y1 != Y2.		%every row 1 number
 
 :- sudoku(X1,Y,N), sudoku(X2,Y,N), X1 != X2.		%every col 1 number
