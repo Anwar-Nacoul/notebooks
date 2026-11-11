@@ -16,12 +16,13 @@ sudoku(X,Y,N) :- initial(X,Y,N).	%take numbers from user
 
 :- sudoku(X1,Y,N), sudoku(X2,Y,N), X1 != X2.		%every col 1 number
 
-%every sub 1 number
+%sub
 subgrid(X,Y,B) :-
     cell(X,Y),
     subgrid_size(S),
     B = ((X-1)/S)*S + (Y-1)/S.
-	
+
+%every sub 1 number
 subgrid_size(3).
 
 :- sudoku(X1,Y1,N), sudoku(X2,Y2,N),
